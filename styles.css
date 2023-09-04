@@ -1,1 +1,13 @@
+ table caption {
+    caption-side: top;
 
+  }
+.main{
+	background-color:black;
+	color:white;
+}
+.last{
+	background-color:#F8F9FB;
+	
+	
+}
