@@ -7,7 +7,8 @@
 <body>
     <!--    Write your code here -->
 <!-- 	 <caption>List of all transactions</caption> -->
-	<table class="table">
+	 <div class="container">
+	<table class="table table-hover">
 		 <caption>List of all transactions</caption>
 		  <thead class="main">
 		    <tr>
@@ -37,18 +38,19 @@
 		      <td>@twitter</td>
 		    </tr>
 		  </tbody>
-		  <tfoot>
-         <tr class="last">
-			  <th scope="col " class=""></th>
-			  <th scope="col " class=""></th>
-			 <th scope="col " class="text-end">Total</th>
-         <th scope="col " class="text-strat">4000</th>
-      
-         </tr>
-        </tfoot>
+
+		 <tfoot class="table-light">
+                <tr>
+                    <td id="total" colspan="3" class="font-monospace text-end fw-bold">Total</td>
+                    <td>4000</td>
+                </tr>
+            </tfoot>
+
+
+	
 </table>
 
-
+	 </div>
 
 
 
